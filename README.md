@@ -13,15 +13,17 @@ __Backends:__
 
 ## Run tasks
 
+### __Enviroments__
 Create .env in project root and frontend folder (see `.env.example` in folders)
 
-__Enviroments for testing__
+Use these envs for test
 
 `frontend/.env`
 
 ```bash
 VITE_API_1='http://localhost:3001/api/'
 VITE_API_2='http://localhost:3002/api/'
+VITE_API_3='http://localhost:3003/api/'
 ```
 
 `.env`
@@ -33,6 +35,8 @@ DB_USER='postgres.nhdpasxupwkwbtpjsfcb'
 DB_PASSWORD='wQa74Lyx#tE$bZH'
 DB_NAME='postgres'
 ```
+
+### __Run scripts__
 
 ```bash
 pnpm -r install
