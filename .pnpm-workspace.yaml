@@ -1,0 +1,5 @@
+packages:
+  - 'inventory-service'
+  - 'history-service'
+  - 'user-service'
+  - 'frontend'
